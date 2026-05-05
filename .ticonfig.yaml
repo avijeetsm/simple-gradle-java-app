@@ -1,0 +1,7 @@
+config:
+  ignore:
+    - "gradle/wrapper/gradle-wrapper.jar"
+  nonCode:
+    include:
+      - "build.gradle"
+      - "config/app.yaml"
