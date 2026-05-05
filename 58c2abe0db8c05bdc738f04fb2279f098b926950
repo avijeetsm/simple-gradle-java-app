@@ -1,0 +1,76 @@
+config/app.yaml
+  0485ac92-fd94-486e-9151-e6256a34aedb 1-12
+.ticonfig.yaml
+  0485ac92-fd94-486e-9151-e6256a34aedb 1-6
+  human 7
+---
+{
+  "attestations": [
+    {
+      "entries": [
+        {
+          "accepted_lines": 12,
+          "added_lines": 12,
+          "deleted_lines": 0,
+          "hash": "0485ac92-fd94-486e-9151-e6256a34aedb",
+          "lines": "1-12",
+          "overridden_lines": 0
+        }
+      ],
+      "file": "config/app.yaml"
+    },
+    {
+      "entries": [
+        {
+          "accepted_lines": 6,
+          "added_lines": 6,
+          "deleted_lines": 0,
+          "hash": "0485ac92-fd94-486e-9151-e6256a34aedb",
+          "lines": "1-6",
+          "overridden_lines": 1
+        },
+        {
+          "accepted_lines": 1,
+          "added_lines": 1,
+          "deleted_lines": 0,
+          "hash": "human",
+          "lines": "7",
+          "overridden_lines": 0
+        }
+      ],
+      "file": ".ticonfig.yaml"
+    }
+  ],
+  "base_commit_sha": "2485c48766788b215e27333945bdbd4f2bc89363",
+  "branch": "master",
+  "commit_sha": "58c2abe0db8c05bdc738f04fb2279f098b926950",
+  "commit_time": "2026-05-05T16:11:57+05:30",
+  "commit_type": "direct_commit",
+  "git_ai_version": "1.4.2",
+  "prompts": {
+    "0485ac92-fd94-486e-9151-e6256a34aedb": {
+      "accepted_lines": 18,
+      "agent_id": {
+        "id": "0485ac92-fd94-486e-9151-e6256a34aedb",
+        "model": "claude-sonnet-4-6",
+        "tool": "claude"
+      },
+      "human_author": "Avijeet <avijeet.singhmandloi@harness.io>",
+      "messages": [],
+      "overriden_lines": 1,
+      "total_additions": 18,
+      "total_deletions": 0
+    },
+    "human": {
+      "accepted_lines": 1,
+      "agent_id": null,
+      "human_author": "Avijeet <avijeet.singhmandloi@harness.io>",
+      "messages": [],
+      "overriden_lines": 0,
+      "total_additions": 1,
+      "total_deletions": 0
+    }
+  },
+  "repo": "https://github.com/avijeetsm/simple-gradle-java-app.git",
+  "schema_version": "authorship/3.0.0"
+}
